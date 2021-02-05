@@ -1,0 +1,67 @@
+  <!doctype html>
+  <html>
+    <head>
+      <title>WEB1 - JAVASCRIPT</title>
+      <meta charset="utf-8">
+    </head>
+    <style>
+  body{
+    margin:0;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+    }
+  h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  ol{
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left:33px;
+  }
+  #grid #article{
+    padding-left:25px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    ol{
+      border-right:none;
+    }
+    h1{
+      border-bottom:none;
+    }
+  </style>
+  <body>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id = "grid">
+  <ol>
+    <li> <a href="1.html">HTML</a></li>
+    <li> <a href="2.html">CSS</a></li>
+    <li> <a href="3.html">JAVASCRIPT</a></li>
+  </ol>
+
+  <div id = "article">
+  <h2>JAVASCRIPT</h2>
+    <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/),[6] often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+    Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[8] JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior,[9] and all major web browsers have a dedicated JavaScript engine to execute it.
+    As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+    </p>
+    </div>
+    </div>
+    </body>
+    </html>
